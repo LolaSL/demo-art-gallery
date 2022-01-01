@@ -10,7 +10,6 @@ function App() {
       <Router>
         <Navbar />
         {/* <div className="main-container"> */}
-
         <Routes  >
           <Route path="/artGallery" exact element={<ArtGalleryPage />} />
 

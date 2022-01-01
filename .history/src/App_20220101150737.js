@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Navbar } from './components/navbar/Navbar';
 import ArtGalleryPage from './pages/artGalleryPage/ArtGalleryPage';
 
@@ -10,11 +10,10 @@ function App() {
       <Router>
         <Navbar />
         {/* <div className="main-container"> */}
+        <Switch>
+          <Route exact path="/" component={ArtGalleryPage} />
 
-        <Routes  >
-          <Route path="/artGallery" exact element={<ArtGalleryPage />} />
-
-        </Routes>
+        </Switch>
         {/* </div> */}
 
       </Router>

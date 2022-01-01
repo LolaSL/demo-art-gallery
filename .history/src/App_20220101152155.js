@@ -10,9 +10,8 @@ function App() {
       <Router>
         <Navbar />
         {/* <div className="main-container"> */}
-
         <Routes  >
-          <Route path="/artGallery" exact element={<ArtGalleryPage />} />
+          <Route path="/artGallery" exact element={ArtGalleryPage} />
 
         </Routes>
         {/* </div> */}

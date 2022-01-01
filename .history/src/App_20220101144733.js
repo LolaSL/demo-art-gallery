@@ -9,13 +9,12 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        {/* <div className="main-container"> */}
+        <div className="main-container">
+          <Routes>
+            <Route exact path="/" element={ArtGalleryPage} />
 
-        <Routes  >
-          <Route path="/artGallery" exact element={<ArtGalleryPage />} />
-
-        </Routes>
-        {/* </div> */}
+          </Routes>
+        </div>
 
       </Router>
     </div>
