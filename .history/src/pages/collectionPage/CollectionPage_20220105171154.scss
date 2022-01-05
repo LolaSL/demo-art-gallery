@@ -1,0 +1,19 @@
+.collection-title {
+  font-size: italic;
+  padding-top: var(--spacing-3);
+}
+.row {
+  align-items: vertical;
+}
+p {
+  color: var(--color-alert);
+  display: inline-block;
+  // position: absolute;
+  // align-items: center;
+  margin: 0 auto;
+  vertical-align: middle;
+  // text-align: center;
+}
+section {
+  min-height: 200px;
+}

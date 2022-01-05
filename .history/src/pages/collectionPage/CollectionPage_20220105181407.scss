@@ -1,0 +1,27 @@
+.collection-title {
+  font-size: italic;
+  padding-top: var(--spacing-3);
+}
+p {
+  color: var(--color-alert);
+  display: table-cell;
+  position: absolute;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+section {
+  min-height: 200px;
+}
+.row-cols-md-3 {
+  // display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 200 px;
+  background: #fcfcfc;
+  margin: 20 px 40 px;
+  // transition: 0.4 s all;
+  width: 800 px;
+  padding: 20 px;
+  margin-left: auto;
+  margin-right: auto;
+}

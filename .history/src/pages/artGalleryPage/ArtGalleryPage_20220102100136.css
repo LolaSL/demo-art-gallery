@@ -1,0 +1,24 @@
+.container {
+  margin: 23px auto;
+}
+h1,
+h2,
+h3,
+h5 {
+  font-style: italic;
+  z-index: 3;
+}
+h1 {
+  color: #042801;
+  text-align: center;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline - block;
+}
+.loader {
+  font-style: italic;
+  color: #042801;
+}

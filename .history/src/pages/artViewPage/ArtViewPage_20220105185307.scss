@@ -1,0 +1,42 @@
+.loader,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
+}
+.container-art {
+  flex-wrap: wrap;
+}
+.art-title {
+  margin: var(--spacing-4);
+  color: var(--color-text-header);
+  text-align: center;
+  align-items: center;
+}
+
+.img {
+  width: 70%;
+  height: auto;
+}
+.art-info {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h2,
+h4,
+h3,
+h5,
+h6 {
+  text-align: center;
+  margin: var(--spacing-2) var(--spacing-4);
+  padding: var(--spacing-1);
+}
+
+.btn-primary {
+  margin: o auto;
+}

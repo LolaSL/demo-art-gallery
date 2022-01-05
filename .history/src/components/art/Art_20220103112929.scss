@@ -1,0 +1,20 @@
+.wrapper {
+  margin: var(--spacing-3) auto;
+  transition: box-shadow 0.1s ease-in;
+  border-radius: var(--border-radius);
+  flex-wrap: wrap;
+}
+// .card {
+//   transition: box-shadow 0.1s ease-in;
+//   border-radius: var(--border-radius);
+// }
+img {
+  position: unset;
+  object-fit: cover;
+}
+.art-title {
+  font-style: italic;
+  margin: var(--spacing-3);
+  cursor: pointer;
+  text-align: center;
+}

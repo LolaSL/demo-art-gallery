@@ -1,0 +1,33 @@
+.wrapper {
+  margin: var(--spacing-3) auto;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.card {
+  border: 1px solid rgba(160, 157, 157, 0.808);
+  color: rgb(2, 39, 2);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  transition: box-shadow 0.3s ease;
+}
+.card-body {
+  text-shadow: 1px 1px 2px #000000;
+}
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+.art-title {
+  font-style: italic;
+  margin: var(--spacing-3);
+  cursor: pointer;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-a-text);
+}

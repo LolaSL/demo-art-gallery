@@ -1,0 +1,29 @@
+.loader,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
+}
+.art-title {
+  margin: var(--spacing-4);
+  color: var(--color-text-header);
+  text-align: center;
+  align-items: center;
+}
+.art-info {
+  width: 60%;
+  height: auto;
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: justify;
+  margin: var(--spacing-3);
+}

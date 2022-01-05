@@ -1,0 +1,18 @@
+.collection-title {
+  font-size: italic;
+  padding-top: var(--spacing-3);
+}
+.row {
+  align-items: stretch;
+}
+.row p {
+  color: var(--color-alert);
+  position: absolute;
+  align-items: center;
+  margin: 0 auto;
+}
+.art {
+  display: flex;
+  height: 100%;
+  padding-top: var(--spacing-3);
+}

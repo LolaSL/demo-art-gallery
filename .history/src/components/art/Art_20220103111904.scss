@@ -1,0 +1,12 @@
+img {
+  position: unset;
+  object-fit: cover;
+}
+.art-title {
+  font-style: italic;
+  margin-top: var(--spacing-3);
+}
+.art-title {
+  cursor: pointer;
+  text-align: center;
+}

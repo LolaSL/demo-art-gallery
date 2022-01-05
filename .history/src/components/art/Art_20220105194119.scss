@@ -1,0 +1,40 @@
+.wrapper {
+  margin: var(--spacing-3) auto;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.card {
+  border: var(--border);
+  color: var(--color-text-header);
+  border-radius: var(--radius-2);
+  box-shadow: var(--box-shadow);
+  transition: box-shadow 0.3s ease;
+  min-width: 100%;
+}
+.card-body {
+  text-shadow: var(--box-shadow);
+  justify-items: center;
+  width: fit-content;
+  height: 100%;
+}
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+.art-title {
+  font-style: italic;
+  margin: var(--spacing-3);
+  cursor: pointer;
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-text-link);
+}
+a h5 {
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+  margin: var(--spacing-3) auto;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.card-body {
+  transition: var(--box-shadow) 0.3s ease-in;
+  border-radius: var(--border-radius);
+  border-radius: 7px;
+  color: rgb(2, 39, 2);
+  text-shadow: 1px 1px 2px #000000;
+}
+img {
+  position: unset;
+  object-fit: cover;
+}
+.art-title {
+  font-style: italic;
+  margin: var(--spacing-3);
+  cursor: pointer;
+  text-align: center;
+}
+h5 {
+  text-decoration: none;
+}
