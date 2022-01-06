@@ -1,0 +1,17 @@
+* {
+  font-style: italic;
+}
+.card {
+  margin: var(--spacing-2) auto;
+}
+.read-more {
+  text-align: justify;
+}
+.btn {
+  margin-top: var(--spacing-2);
+  width: 100px;
+  height: 26px;
+}
+.blockquote-footer {
+  margin-top: var(--spacing-2);
+}

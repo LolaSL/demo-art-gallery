@@ -1,0 +1,14 @@
+.collection-title {
+  font-size: italic;
+  padding-top: var(--spacing-3);
+}
+.error-message {
+  color: var(--color-alert);
+  display: table-cell;
+  position: absolute;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+.art {
+  padding: 1rem 1rem;
+}

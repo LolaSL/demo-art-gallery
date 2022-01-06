@@ -1,0 +1,40 @@
+.wrapper {
+  margin: 0 auto;
+  // flex-wrap: wrap;
+  align-items: center;
+}
+.card {
+  border: var(--border);
+  color: var(--color-text-header);
+  border-radius: var(--radius-2);
+  box-shadow: var(--box-shadow);
+  transition: var(--box-shadow) 0.3s ease;
+  width: 100%;
+}
+.card-body {
+  text-shadow: var(--box-shadow);
+  justify-items: center;
+  min-width: 100%;
+  min-height: 100%;
+}
+.img-thumbnail {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  padding: var(--spacing-1);
+}
+.art-title {
+  font-style: italic;
+  margin: var(--spacing-1);
+  cursor: pointer;
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-text-link);
+}
+a h5 {
+  text-align: center;
+}

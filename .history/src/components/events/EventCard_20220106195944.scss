@@ -1,0 +1,18 @@
+* {
+  font-style: italic;
+}
+.card {
+  margin: var(--spacing-2) auto;
+}
+.read-more {
+  text-align: justify;
+}
+#read-button {
+  margin-top: var(--spacing-2);
+  width: 170px;
+  height: 66px;
+  padding-bottom: var(--spacing-2);
+}
+.blockquote-footer {
+  margin-top: var(--spacing-2);
+}
