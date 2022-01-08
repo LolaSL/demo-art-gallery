@@ -1,0 +1,17 @@
+h1 {
+  font-style: italic;
+}
+@media only screen and (min-width: 270px) and (max-width: 451px) {
+  .booking-container {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .link {
+    padding: var(--spacing-1);
+    font-weight: 200;
+    font-size: var(--spacing-2);
+    margin: var(--spacing-2);
+  }
+}

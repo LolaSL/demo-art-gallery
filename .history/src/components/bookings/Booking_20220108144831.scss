@@ -1,0 +1,38 @@
+* {
+  font-style: italic;
+  color: var(--color-text);
+}
+.main-container {
+  display: block;
+  align-items: center;
+  // flex-wrap: wrap;
+  margin: var(--spacing-2) auto;
+}
+
+.container {
+  padding-top: var(--spacing-2);
+}
+
+.booking-info {
+  text-align: justify;
+  align-items: baseline;
+}
+
+.booking-info .btn-secondary {
+  color: var(--color-text-button);
+}
+
+a {
+  margin: var(--spacing-2) auto;
+  text-align: center;
+}
+.icon-container,
+.address-container,
+.trailer-title {
+  padding-top: var(--spacing-2);
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+}

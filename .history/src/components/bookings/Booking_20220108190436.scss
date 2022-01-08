@@ -1,0 +1,23 @@
+* {
+  font-style: italic;
+  color: var(--color-text);
+}
+.booking-box {
+  display: block;
+}
+.booking-info {
+  text-align: justify;
+  font-size: var(--spacing-3);
+}
+@media only screen and (min-width: 270px) and (max-width: 451px) {
+  .booking-box {
+    display: block;
+    margin: 0 auto;
+    justify-items: center;
+    width: 100%;
+  }
+  .booking-info {
+    text-align: justify;
+    font-size: var(--spacing-2);
+  }
+}

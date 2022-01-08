@@ -1,0 +1,39 @@
+* {
+  font-style: italic;
+  color: var(--color-text);
+}
+.main-container {
+  // flex-wrap: wrap;
+  margin: var(--spacing-2) auto;
+}
+
+.container {
+  display: block;
+  padding-top: var(--spacing-2);
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.booking-info {
+  text-align: justify;
+  align-items: baseline;
+}
+
+.booking-info .btn-secondary {
+  color: var(--color-text-button);
+}
+
+a {
+  margin: var(--spacing-2) auto;
+  text-align: center;
+}
+.icon-container,
+.address-container,
+.trailer-title {
+  padding-top: var(--spacing-2);
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+}

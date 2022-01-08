@@ -1,0 +1,64 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+html,
+body {
+  background: var(--color-background);
+  color: var(--color-text-body);
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+.hoverable:hover {
+  cursor: pointer;
+}
+:root {
+  --color-text-button: #f7f8f8;
+  --color-background-secondary: rgb(253, 101, 40);
+  --color-foreground: #ffffff;
+  // --color-button: #5a5959;
+  // --color-border: #e6e6e6;
+  --color-text-header: #042801;
+  --color-text-link: #6f6f6f;
+  --color-text: #444343;
+  //   --color-text-invert: #ffffff;
+  //   --color-text-link: #4ec3f5;
+  //   --color-branding: #115241;
+  //   --color-branding-transparent: #73afaf40;
+  //   --color-header: #e4e1e1;
+  //   --color-comment-background: #fdf9f9;
+  //   --color-search: #000000;
+  --color-alert: #ff304f;
+  //   --color-success: #45b81f;
+  --color-on-hover: rgb(31, 46, 31);
+  //   --color-logout: OrangeRed;
+  --box-shadow: 5px 7px 3px #918d8d, 0 5px 9px -2px rgba(0, 0, 0, 0.05) !important;
+  //   --box-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  //     0 35px 35px -15px rgba(0, 0, 0, 0.04) !important;
+  //   --color-background-button-login: #000000;
+  --text-shadow: 1px 1px 2px solid #000000;
+  --border: 1px solid rgba(160, 157, 157, 0.808);
+  --spacing-0: 4px;
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 36px;
+  --spacing-5: 64px;
+  //   --spacing-6: 300px;
+  //   --spacing-7: 380px;
+  //   --spacing-8: 500px;
+  //   --spacing-9: 600px;
+  //   --spacing-10: 900px;
+
+  --radius: 4px;
+  --radius-2: 8px;
+}
+
+p {
+  margin: 0;
+}

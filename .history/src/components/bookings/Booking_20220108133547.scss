@@ -1,0 +1,11 @@
+* {
+  font-style: italic;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.booking-info .btn-secondary {
+  color: var(--color-button-text);
+}

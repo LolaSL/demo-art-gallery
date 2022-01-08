@@ -1,0 +1,22 @@
+* {
+  font-style: italic;
+  color: var(--color-text);
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  padding-top: var(--spacing-2);
+}
+
+.booking-info .btn-secondary {
+  color: var(--color-text-button);
+}
+
+.icon-container,
+.address-container,
+.trailer-title {
+  padding-top: var(--spacing-2);
+}

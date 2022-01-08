@@ -1,0 +1,12 @@
+main,
+.booking-title {
+  font-style: italic;
+  padding-top: var(--spacing-2);
+}
+
+main {
+  background-image: url("../../components/bookings/cover.jpg");
+  background-color: #f8f6f6;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

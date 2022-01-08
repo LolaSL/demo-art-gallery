@@ -1,0 +1,12 @@
+* {
+  font-style: italic;
+  color: var(--color-text);
+}
+@media only screen and (min-width: 270px) and (max-width: 451px) {
+  .booking-box {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-items: center;
+    width: 100%;
+  }
+}
