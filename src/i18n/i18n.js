@@ -25,7 +25,7 @@ i18n
     .init({
         fallbackLng: "en",
         lng: setLanguage(),
-        debug: true,
+        debug: false,
         whiteLists: ['en', 'ru'],
         interpolation: {
             escapeValue: false // react already safes from xss
