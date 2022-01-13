@@ -1,0 +1,10 @@
+.collection-title {
+  font-size: italic;
+  padding-top: var(--spacing-3);
+}
+.error-message {
+  display: table-cell;
+  position: absolute;
+  margin: 0 auto;
+  vertical-align: middle;
+}

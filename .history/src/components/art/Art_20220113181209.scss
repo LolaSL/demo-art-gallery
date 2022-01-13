@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+.col-12 .card {
+  border: var(--border);
+  color: var(--color-text-header);
+  border-radius: var(--radius-2);
+  box-shadow: var(--box-shadow);
+  transition: var(--box-shadow) 0.3s ease;
+}
+.h-100 .card-img-top {
+  max-width: 18rem;
+}
+
+.card-body {
+  text-shadow: var(--box-shadow);
+  height: auto;
+}
+
+a .picture-name {
+  color: var(--color-text-link);
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 0.5rem;
+  padding: var(--spacing-2);
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+a :hover {
+  color: var(--color-link-hover);
+}
+a h5 {
+  margin: var(--spacing-1) auto;
+}

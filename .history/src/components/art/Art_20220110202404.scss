@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+.card {
+  border: var(--border);
+  color: var(--color-text-header);
+  border-radius: var(--radius-2);
+  box-shadow: var(--box-shadow);
+  transition: var(--box-shadow) 0.3s ease;
+  width: 100%;
+  height: 100%;
+}
+
+.card-body {
+  text-shadow: var(--box-shadow);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: var(--color-text-link);
+}
+a h5 {
+  margin: 0 auto;
+}

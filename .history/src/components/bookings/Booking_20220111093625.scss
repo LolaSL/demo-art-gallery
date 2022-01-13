@@ -1,0 +1,16 @@
+* {
+  font-style: italic;
+  color: var(--color-text);
+}
+.booking {
+  display: flex;
+}
+.booking-info {
+  text-align: justify;
+  align-items: justify;
+  font-size: var(--spacing-3);
+}
+video {
+  max-width: 100%;
+  height: auto;
+}

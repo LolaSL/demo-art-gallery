@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border: var(--border);
+  color: var(--color-text-header);
+  border-radius: var(--radius-2);
+  box-shadow: var(--box-shadow);
+  transition: var(--box-shadow) 0.3s ease;
+  width: 100%;
+  height: auto;
+}
+// img {
+//   width: 100%;
+//   height: auto;
+// }
+.card-body {
+  text-shadow: var(--box-shadow);
+}
+.card-title {
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: var(--color-text-link);
+}
+a h5 {
+  margin: 0 auto;
+}

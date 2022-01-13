@@ -1,0 +1,11 @@
+* {
+  font-style: italic;
+}
+.alert {
+  border: solid;
+  box-shadow: var(--box-shadow);
+  border-style: inset;
+  padding: var(--spacing-3);
+  width: 100%;
+  height: auto;
+}

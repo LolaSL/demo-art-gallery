@@ -1,0 +1,24 @@
+* {
+  font-style: italic;
+}
+
+.card {
+  margin: var(--spacing-2) auto;
+  box-shadow: var(--box-shadow);
+  transition: var(--box-shadow) 0.3s ease;
+}
+
+.read-more {
+  text-align: justify;
+}
+.btn-secondary {
+  color: var(--color-text-button);
+  margin: var(--spacing-2) auto;
+}
+.blockquote-footer {
+  margin-top: var(--spacing-2);
+}
+.btn-secondary h6 {
+  padding: 0;
+  margin: 0;
+}

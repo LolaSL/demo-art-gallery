@@ -1,0 +1,11 @@
+* {
+  font-style: italic;
+  color: var(--color-text);
+}
+.booking {
+  display: flex;
+}
+.booking-info {
+  text-align: justify;
+  font-size: var(--spacing-3);
+}
