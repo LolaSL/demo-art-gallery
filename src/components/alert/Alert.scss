@@ -1,5 +1,6 @@
 * {
-  font-style: italic;
+  font-style: italic; 
+  font-family: var(--font-family);
 }
 .alert {
   border: solid;
@@ -11,5 +12,5 @@
 }
 .link {
   font-size: var(--spacing-2);
- font-family: var(--font-family);
+
 }
