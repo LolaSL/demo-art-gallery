@@ -1,6 +1,10 @@
+* {
+   font-style: italic;
+   font-family: var(--font-family);
+}
+
 .nav {
   font-weight: 500;
-  font-style: italic;
   background: var(--color-background-secondary);
 }
 a.link {
@@ -10,7 +14,6 @@ a.link {
   padding: var(--spacing-1);
   font-weight: 600;
   margin: var(--spacing-2);
- font-family: var(--font-family);
 }
 .link:hover {
   color: var(--color-on-hover);
@@ -27,12 +30,10 @@ a.link {
 #nav-button-en {
   margin-right: var(--spacing-1);
   margin-left: var(--spacing-1);
-  font-family: var(--font-family);
 }
 #nav-button-ru {
   margin-right: var(--spacing-2);
   margin-left: var(--spacing-1);
-  font-family: var(--font-family);
 }
 @media only screen and (max-width: 414x) {
   a.link {
