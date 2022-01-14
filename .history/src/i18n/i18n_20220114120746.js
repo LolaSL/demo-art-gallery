@@ -6,6 +6,11 @@ import RuJson from './translation/ru.json';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 
+const options = {
+    order: ['cookie', 'localStorage', 'sessionStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
+    lookupLocalStorage: 'lng'
+}
+
 const setLanguage = () => {
     const language = localStorage.getItem('i18nextLng');
     if (language) return language;
@@ -35,6 +40,7 @@ i18n
         interpolation: {
             escapeValue: false // react already safes from xss
         },
+        detection: options,
 
     });
 

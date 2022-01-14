@@ -21,7 +21,7 @@ function Art({
                         src={image}
                         object-fit="cover"
                         alt={t(pictureName)} />
-                    <div className="card-title  mt-4 mb-4" key={pictureName.id}>
+                    <div className="card-title  mt-4 mb-4" key={t(pictureName.id)}>
                         <Link to={`/artView/${id}`} className="art-link font-weight-bold" role="button">
                             <h6 className="picture-name text-center fs-6">{t(pictureName)}</h6>
                         </Link>
