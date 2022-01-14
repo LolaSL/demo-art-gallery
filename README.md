@@ -1,4 +1,4 @@
-# This is the Demo of an Art Gallery which is performed in minimalistic vatiant  in React and using i18n for content translation in two languages (Client part - front-end).
+# This is the Demo of an Art Gallery which is performed in minimalistic vatiant  in React and using i18n for content translation in two languages: English and Russian (Client part - front-end). This Single Page Application is built for desktop and supports some mobile version screens.
 
 # Demo - Art -  Gallery Management System
 
