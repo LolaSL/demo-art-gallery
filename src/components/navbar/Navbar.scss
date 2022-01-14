@@ -10,7 +10,7 @@ a.link {
   padding: var(--spacing-1);
   font-weight: 600;
   margin: var(--spacing-2);
-  font-family: "Orelega";
+ font-family: var(--font-family);
 }
 .link:hover {
   color: var(--color-on-hover);
