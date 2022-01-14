@@ -2,6 +2,7 @@ import i18n from "i18next";
 import { initReactI18next } from 'react-i18next';
 import EnJson from './translation/en.json';
 import RuJson from './translation/ru.json';
+// import Backend from 'i18next-xhr-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 
@@ -23,6 +24,7 @@ const resources = {
 }
 
 i18n
+    // .use(Backend)
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
