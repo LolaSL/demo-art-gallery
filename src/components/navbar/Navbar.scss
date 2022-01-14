@@ -32,7 +32,7 @@ a.link {
 #nav-button-ru {
   margin-right: var(--spacing-2);
   margin-left: var(--spacing-1);
-  font-family: "Orelega";
+  font-family: var(--font-family);
 }
 @media only screen and (max-width: 414x) {
   a.link {
