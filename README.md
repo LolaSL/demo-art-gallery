@@ -37,16 +37,18 @@ https://demo-art-gallery.netlify.app
 This project was bootstrapped with Create React App.
 
 ## Technical stack:
-Front end:
-o	React hooks
-o	Bootstrap / scss
-o	React Api-context
-o	React Router
-o	Webpack
-o	NPM (basics)
-o	i18n - translate
-o	Tests  (not mandatory)
-o	Github
+
+### Front end:
+
+#### React hooks
+#### Bootstrap / scss
+#### React Api-context
+#### React Router
+#### Webpack
+#### NPM (basics)
+#### i18n - translate
+#### Tests  (not mandatory)
+#### Github
 
 # Features
 
