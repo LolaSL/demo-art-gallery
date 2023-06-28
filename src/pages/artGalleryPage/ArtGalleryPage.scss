@@ -32,7 +32,7 @@ h1 {
 .carousel-caption p {
   font-size: var(--spacing-4);
   font-style: italic;
-  font-family: "Abril Fatface", sans-serif;
+  font-family: var(--font-family);
 }
 img {
   max-width: 100%;

@@ -29,7 +29,7 @@ i18n
         resources,
         fallbackLng: "en",
         lng: setLanguage(),
-        debug: false,
+       debug: false,
         whiteLists: ['en', 'ru'],
 
         interpolation: {
