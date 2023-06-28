@@ -1,26 +1,25 @@
-# This is the Demo of an Art Gallery which is performed in minimalistic vatiant  in React and using i18n for content translation in two languages (Client part - front-end).
+# This is the Demo of an Art Gallery which is performed in minimalistic vatiant  in React and using i18n for content translation in two languages (Client part - front-end)
 
 # Demo - Art -  Gallery Management System
 
-## Objective: To create Demo Art Gallery Management System that keeps record of artists, their paintings, art gallery details, exhibition details and option for subscription.
+## Objective: To create Demo Art Gallery Management System that keeps record of artists, their paintings, art gallery details, exhibition details and option for subscription
 
-## Abstract: This project intends to include various features related to an art gallery i.e. information about gallery, exhibition, artists, their paintings etc. The main aim is to help art lovers know about different exhibition details organised by Art Gallery, the art work included, the artists. 
+## Abstract: This project intends to include various features related to an art gallery i.e. information about gallery, exhibition, artists, their paintings etc. The main aim is to help art lovers know about different exhibition details organised by Art Gallery, the art work included, the artists
 
-# Role Based Access Control, RBAC:
+# Role Based Access Control, RBAC
 
-## This project allows two types of user:
+## This project allows two types of user
 
 1. Site Editor.
 2. Site Guest.
 
-### The activities of  Site Editor are:
+### The activities of  Site Editor are
 
-1. Manages with minor and major features for Demo Art Gallery Application: 
+1. Manages with minor and major features for Demo Art Gallery Application:
 2. Manages (create/ edit/remove/save) major and minor application features such as navbar, search area, alert, buttons, content, titles, inputs, pictures etc.
 3. Manages (choose/ change) application colors such as navbar color, buttons color, background color, title and content color etc.
 
-
-### The activities of  Site Guest are:
+### The activities of  Site Guest are
 
 1. Uses Demo Art Gallery Application features for its purposes.
 2. Reaches Application site by URL
@@ -29,117 +28,121 @@
 
 # Link
 
-https://demo-art-gallery.netlify.app
-
+<https://demo-art-gallery.netlify.app>
 
 # Getting Started with Create React App
 
 This project was bootstrapped with Create React App.
 
-## Technical stack:
+## Technical stack
 
-### Front end:
+### Front end
 
 #### React hooks
+
 #### Bootstrap / scss
+
 #### React Api-context
+
 #### React Router
+
 #### Webpack
+
 #### NPM (basics)
+
 #### i18n - translate
+
 #### Tests  (not mandatory)
+
 #### Github
 
 # Features
 
-## The Demo Art Gallery Application includes 6 pages:
+## The Demo Art Gallery Application includes 6 pages
 
 ## Art Gallery (Home Page)
 
-### This page includes:
+### This page includes
 
-#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface.
+#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface
 
-#### Alert, which can be opened if press the button “Information” and can be closed by click.
+#### Alert, which can be opened if press the button “Information” and can be closed by click
 
-#### Slider with announcement of Events page with event's pictures, title and short event explanation on the Art Gallery page, when  click on left or right arrow, picture should be changed to other one, or pictures in slider can be changed in time interval.
+#### Slider with announcement of Events page with event's pictures, title and short event explanation on the Art Gallery page, when  click on left or right arrow, picture should be changed to other one, or pictures in slider can be changed in time interval
 
 ## Collection Page
 
-### This page includes:
+### This page includes
 
-#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface.
+#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface
 
-#### Search area for searching paintings by painting name, year, painter name and material in two languages - English and Russian.
+#### Search area for searching paintings by painting name, year, painter name and material in two languages - English and Russian
 
-#### An option if the Site Guest enters not valid input (like numbers, just letters or their combination) to search area NO PICTURE MATCHED YOUR SEARCH AREA will appear on User Interface.
+#### An option if the Site Guest enters not valid input (like numbers, just letters or their combination) to search area NO PICTURE MATCHED YOUR SEARCH AREA will appear on User Interface
 
-#### Collection of arts  - 15 painting pictures with a picture name.
-
+#### Collection of arts  - 15 painting pictures with a picture name
 
 ## Painting Information Page
 
-### This page includes:
+### This page includes
 
-#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface.
+#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface
 
-#### The navigation to Painting’s Information page will be fulfilled after selecting and clicking on a painting name link on the Collection page. 
+#### The navigation to Painting’s Information page will be fulfilled after selecting and clicking on a painting name link on the Collection page
 
-#### Title "Painting Information", Image and Painting Art details picture such as picture name, painter name, year, picture dimension, picture materials and detailed painting description content about picture.
+#### Title "Painting Information", Image and Painting Art details picture such as picture name, painter name, year, picture dimension, picture materials and detailed painting description content about picture
 
-#### Button BACK TO COLLECTION for continuing to see or select other pictures.
-
+#### Button BACK TO COLLECTION for continuing to see or select other pictures
 
 ## Events Page
 
-### This page includes:
+### This page includes
 
-#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface.
+#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface
 
-#### Title “ART GALLERY EVENTS”.
+#### Title “ART GALLERY EVENTS”
 
-#### Three events. Events are things such as the lectures, exhibitions, etc. Note: This includes the following information: event, event description, event name, event date, event time, event picture, venue name.
+#### Three events. Events are things such as the lectures, exhibitions, etc. Note: This includes the following information: event, event description, event name, event date, event time, event picture, venue name
 
-#### The buttons “Read more” and “Read less” for toggling event description content to showing less or showing more the event description content.
+#### The buttons “Read more” and “Read less” for toggling event description content to showing less or showing more the event description content
 
-#### Button "BOOK ENTRY TICKET".
-
+#### Button "BOOK ENTRY TICKET"
 
 ## Booking Page
 
-### This page includes:
+### This page includes
 
-#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface.
+#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface
 
-#### The title "BOOK FREE TIMED ENTRY".
+#### The title "BOOK FREE TIMED ENTRY"
 
-#### The title "TRAILER".
+#### The title "TRAILER"
 
-#### The trailer (video), which Site User can watch and re-watch video.
+#### The trailer (video), which Site User can watch and re-watch video
 
-#### The  page content, button "TICKETS AVAILABLE SOON // BACK TO EVENTS", Demo Art Gallery contact details.
+#### The  page content, button "TICKETS AVAILABLE SOON // BACK TO EVENTS", Demo Art Gallery contact details
 
 ## About Page
 
-### This page includes:
+### This page includes
 
-#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface.
+#### The Navbar with page's tabs and toggled language buttons en and ru. By clicking on tab the relevant page will be routed and presented on User Interface
 
-#### Title "ABOUT ART GALLERY".
+#### Title "ABOUT ART GALLERY"
 
-#### The content "Our Mission : ......".
+#### The content "Our Mission : ......"
 
 #### The content "Our Values: ....."
 
-#### The title "Subscribe to newsletter and hear about events, collection from Art Gallery".
+#### The title "Subscribe to newsletter and hear about events, collection from Art Gallery"
 
-#### Subscription input areas: 
-1.	Enter First name
-2.	Enter Last name
-3.	Enter email address
+#### Subscription input areas
 
-#### The button "SUBSCRIBE". 
+1. Enter First name
+2. Enter Last name
+3. Enter email address
 
+#### The button "SUBSCRIBE"
 
 ## Available Scripts
 
@@ -209,8 +212,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 # License
-MIT
 
+MIT

@@ -1,0 +1,16 @@
+* {
+  font-style: italic;
+}
+.alert {
+  border: solid;
+  box-shadow: var(--box-shadow);
+  border-radius: 6px;;
+  border-style: outset;
+  padding: var(--spacing-3);
+  width: 100%;
+  height: auto;
+}
+.link {
+  font-size: var(--spacing-2);
+  font-family: "Orelega", "Abril Fatface", sans-serif;
+}

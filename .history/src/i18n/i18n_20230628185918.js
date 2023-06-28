@@ -29,8 +29,12 @@ i18n
         resources,
         fallbackLng: "en",
         lng: setLanguage(),
-       debug: false,
+<<<<<<< HEAD
+        debug: false,
+
+        debug: false,
         whiteLists: ['en', 'ru'],
+>>>>>>> a067c27641490c95c2d56164ce2dfa3c6fc4de4e
         interpolation: {
             escapeValue: false // react already safes from xss
         },
