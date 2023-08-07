@@ -32,7 +32,7 @@ i18n
         debug: false,
         whiteLists: ['en', 'ru'],
         interpolation: {
-        escapeValue: false // react already safes from xss
+            escapeValue: false // react already safes from xss
         },
 
     });
